@@ -1,0 +1,80 @@
+  
+    body {
+        background: rgb(255, 173, 65);
+      }
+
+      .header2{
+        height:40px;
+        background-color: gray;
+        padding-top: 10px;
+        padding-left: 15px;;
+      }
+      
+      .todo-container {
+        width: 70vw;
+        margin-left : 200px;
+        border-radius: 15px;
+        padding: 20px 10px;
+        color: black;
+       
+      }
+
+      
+      .task {
+        border: 1px solid grey;
+        border-radius: 5px;
+        padding: 1rem;
+        margin: 0.5em;
+        display: flex;
+        width:50vw;
+      }
+
+      .title{
+        margin-left: 10px;
+      }
+      
+      .task button{
+        background: rgb(12, 124, 251);
+        border-radius: 5px;
+        margin: 0px 5px;
+        padding: 3px 5px;
+        border: none;
+        cursor: pointer;
+        color: black;
+        float: right;
+      }
+      
+      .header {
+        margin: 0.5em;
+        font-size: 2em;
+        text-align: left;
+      }
+      
+      .create-task input[type=text] {
+        margin: 1.5em 0rem;
+        width: 70vw;
+        outline: none;
+        border: 1px solid grey;
+        padding: 0.7em;
+      }
+
+      .flex{
+        display: flex;
+      }
+
+      .button{
+        width:40px;
+        height:30px;
+        margin: 2rem 1.5rem;
+        background:#008CBA;
+        color:white;
+        font-size: 14px;
+        border: none;
+        border-radius: 5%;
+      }
+
+      .icon{
+        padding-left: 250px;
+        align-self: flex-end;
+        color:red;
+      }
